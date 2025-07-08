@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Audiowide', sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  padding: 3rem;
+  z-index: 1;
+}
+
+.left-info {
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  border-left: 4px solid #ff003c;
+}
+
+.f1-title {
+  font-size: 3rem;
+  color: #ff003c;
+  margin-bottom: 1rem;
+}
+
+.f1-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-shadow:
+    0 0 4px #000000,
+    0 0 8px #000000,
+    0 0 16px #000000;
+}
+
+/* Team slider section */
+.team-slider {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem 0;
+  position: relative;
+  z-index: 2;
+}
+
+.team-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollTeams 30s linear infinite;
+  min-width: 200%; 
+}
+
+.team-track span {
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: 1.4rem;
+  color: #ff003c;
+  text-shadow: 0 0 5px #ff003c;
+  font-weight: bold;
+}
+
+@keyframes scrollTeams {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

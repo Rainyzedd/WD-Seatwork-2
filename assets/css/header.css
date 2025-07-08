@@ -10,8 +10,13 @@
   justify-content: flex-end;
   align-items: center;
   padding: 2rem 4rem; 
-  background-color: #200c34;
+  background-color:   #000000;
   box-sizing: border-box;
+}
+
+.customCheckBoxHolder {
+  margin: px;
+  display: flex;
 }
 
 .customCheckBox {
@@ -21,22 +26,25 @@
   cursor: pointer;
   user-select: none;
   padding: 2px 8px;
-  background-color: #2c2c2c; 
+  background-color: rgba(231, 213, 213, 0.16);
   border-radius: 0px;
-  color: rgba(255, 255, 255, 0.8);
-  transition: 300ms ease;
+  color: rgba(255, 255, 255, 0.7);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 300ms;
+  transition-property: color, background-color, box-shadow;
   display: flex;
   height: 32px;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px 1px 1px 0px;
+  outline: none;
   justify-content: center;
   min-width: 55px;
 }
 
 .customCheckBox:hover {
-  background-color: #581c8a; 
+  background-color: #424242;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px -2px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
 }
 
 .customCheckBox .inner {
@@ -54,7 +62,7 @@
 }
 
 .customCheckBoxWrapper:first-of-type .customCheckBox {
-  background-color: #5500ff;
+  background-color: #6b6b6b;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset;
 }
