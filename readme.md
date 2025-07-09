@@ -125,4 +125,5 @@ WD-ProjectName
 | Nav BUttons | Buttons for navigations | https://uiverse.io/WhiteNervosa/wicked-deer-90 |
 | Sranger Things bg | Background of Stranger things | https://wallpapercat.com/stranger-things-wallpapers#load |
 | Sranger Things logo | Logo of Stranger things | https://blog.logomyway.com/stranger-things-logo/ |
+| Play now button | BUtton for my play now | https://uiverse.io/TCdesign-dev/fuzzy-fireant-2 |
 
