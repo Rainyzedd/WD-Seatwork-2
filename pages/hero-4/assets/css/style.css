@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  background-color: black;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: url("your-pacman.gif") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  text-shadow: 3px 3px 0 #000;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #ffcc00;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 0 #000;
+}

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Cinzel', serif;
+  color: white;
+  background: black;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  background: url('../img/stbg.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  text-align: center;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.logo {
+  max-width: 20rem;
+  width: 100%;
+  transform: translateY(2rem);
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  margin-top: -2rem;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-info i {
+  margin-right: 0.5rem;
+  color: #ff4747;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.watch-button {
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.watch-button:hover {
+  background-color: #b00610;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 220px;
+    transform: translateY(1rem);
+  }
+
+  .content {
+    margin-top: -1rem;
+    padding: 1.5rem;
+  }
+
+  .movie-info {
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .watch-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+  }
+}

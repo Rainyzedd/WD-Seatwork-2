@@ -119,4 +119,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Pixel City Chill GIF | Background for Homepage | https://tenor.com/view/pixel-city-chill-gif-22227473 |
+| F1 BG | Background for Header 2 | https://www.wsupercars.com/car-wallpaper-download/?title=2025%20Red%20Bull%20Racing%20RB21&res=1920%20x%201080&pic=https://www.wsupercars.com/wallpapers-regular/Formula-1/Red-Bull-Racing/2025-Formula1-Red-Bull-Racing-RB21-010-1080.jpg |
+| Riolu | Riolu Picture | https://www.pokemon.com/us/pokedex/riolu |
+| Nav BUttons | Buttons for navigations | https://uiverse.io/WhiteNervosa/wicked-deer-90 |
+| Sranger Things bg | Background of Stranger things | https://wallpapercat.com/stranger-things-wallpapers#load |
+| Sranger Things logo | Logo of Stranger things | https://blog.logomyway.com/stranger-things-logo/ |
+
