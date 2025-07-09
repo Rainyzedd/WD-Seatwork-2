@@ -5,31 +5,24 @@
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Untitled design (8).png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork-2</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is me creating a 5 different Hero Sections.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
 ---
-
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -56,29 +49,59 @@
 ---
 
 ## Overview
+This project is a multi-page website showcasing five themed hero sections, each inspired by a different pop culture or aesthetic. The main design direction is cyberpunk/lofi with a retro pixel-art twist. Each page includes a navigation system for seamless exploration and uses a unified font and style base, while still embracing the uniqueness of each hero theme.
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+Theme: High-speed Formula 1 racing
+Design Approach:
+Inspired by the adrenaline and energy of modern F1 events
+Features bold typography, red-and-black contrasts, and sleek racing visuals
+Uses motion graphics or animated GIFs that suggest speed and precision
+Purpose: To represent energy, speed, and precision in digital design
+Font/Color: Futuristic bold sans-serif, with racing-stripe effects and minimal color accents (red/black/white)
+Mood: Fast-paced, competitive, cutting-edge
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Theme: Pokémon universe, specifically Riolu
+Design Approach:
+Features a calming background with a pixel-art Riolu scene or a dynamic sprite
+Gentle blues and bright yellows reflect Riolu’s color scheme
+Text is styled with a fun, game-like font (still keeping consistency with the main pixel theme)
+Purpose: To showcase nostalgia and youth through a character-driven layout
+Font/Color: Rounded, playful, pixel-style type; blue, white, and light yellow palette
+Mood: Adventurous, nostalgic, lighthearted
+
+Theme: Netflix's Stranger Things
+Design Approach:
+Dark 80s horror aesthetic with red neon text, VHS static effects, and a moody background
+Fonts resemble the Stranger Things title (Cinzel or similar serif)
+Layout mimics a poster-style intro, with emphasis on date, rating, and story snippet
+Purpose: To explore dark retro themes in a modern layout
+Font/Color: Classic serif, all caps, red text glow on black/dark backgrounds
+Mood: Suspenseful, eerie, cinematic
+
+Theme: Classic arcade – Pac-Man
+Design Approach:
+Uses bright yellow Pac-Man iconography and 8-bit ghosts
+Background mimics an arcade maze or blinking dots
+Animations or hover effects reflect classic gameplay
+Purpose: To bring classic arcade culture into web design
+Font/Color: Pixel-perfect font, bright primary colors (yellow, blue, red) on black
+Mood: Fun, interactive, retro-gaming
+
+Theme: Modern youth, streetwear & tech culture
+Design Approach:
+Cyberpunk-inspired with neon lights, digital overlays, and glitch aesthetics
+Represents Gen Z identity—creativity, self-expression, and connection
+May include lofi city visuals, glitch text effects, and bold expressive slogans
+Purpose: To reflect the evolving identity of digital-native youth
+Font/Color: Bold pixel font + neon blue, pink, and purple; stylized overlays
+Mood: Rebellious, expressive, digital-forward
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -125,5 +148,6 @@ WD-ProjectName
 | Nav BUttons | Buttons for navigations | https://uiverse.io/WhiteNervosa/wicked-deer-90 |
 | Sranger Things bg | Background of Stranger things | https://wallpapercat.com/stranger-things-wallpapers#load |
 | Sranger Things logo | Logo of Stranger things | https://blog.logomyway.com/stranger-things-logo/ |
+| Play now button | BUtton for my play now | https://uiverse.io/TCdesign-dev/fuzzy-fireant-2 |
 | Play now button | BUtton for my play now | https://uiverse.io/TCdesign-dev/fuzzy-fireant-2 |
 
